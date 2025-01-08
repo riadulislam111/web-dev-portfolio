@@ -62,10 +62,15 @@ border: none;
 font-size: 35px;
 font-weight: bold;
 color: #181818;
+
 }
 .section-description{
     font-size: 18px;
     color: #757575;
+    
+}
+.text-center{
+    text-align: center;
 }
 .banner-greetings{
     font-size: 45px;
@@ -110,4 +115,15 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+/* skills section style */
+.siklls-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
 }
