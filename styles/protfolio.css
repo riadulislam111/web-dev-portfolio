@@ -23,3 +23,12 @@ nav{
     font-size: 45px;
 
 }
+nav ul li {
+    list-style: none;
+}
+nav li a {
+    text-decoration:none ;
+}
+.dark-2{
+color: #474747;
+}
