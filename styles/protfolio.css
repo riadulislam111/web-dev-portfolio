@@ -8,7 +8,9 @@
   font-variation-settings: 
   "wdth" 100;
 }
-
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -56,6 +58,15 @@ border: none;
     max-width: 580px;
 }
 /* banner styles */
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
@@ -75,4 +86,28 @@ border: none;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top:130px;
+    background-color: #FFF8F3;
+    
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
